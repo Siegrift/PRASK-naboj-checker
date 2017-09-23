@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #818f3d;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 4em;
+  text-align: center;
+}
+
+#problem-select-wrap {
+  margin: 10px;
+}
+
+#label {
+}
+
+#input-area {
+  margin: 10px;
+  width: 80%;
+  height: 500px;
+}
+
+#submit {
+  width: 100px;
+}
