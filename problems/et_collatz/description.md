@@ -3,10 +3,10 @@ Majme číslo k. Ukážeme ho kamarátovi Collatzovi. Ak je **k** párne, Collat
 musíme ukázať.
 
 ###### Input
-Na prvom riadku vstupu je číslo **n**, počet riadkov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich je číslo **k**, (0 < k < 100 000).
+Na prvom riadku vstupu je číslo **n**, počet riadkov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich je číslo **k**, (0 < k <= 100 000).
 
 ###### Output
-Vypíšte jedno číslo, počet krokov, kým sa z čísla **k** nestane **1**.
+Pre každý riadok vstupu vypíšte jedno číslo, počet krokov, kým sa z čísla **k** nestane **1**.
 
 ##### Sample in
 ```
