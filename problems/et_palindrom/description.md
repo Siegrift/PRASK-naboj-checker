@@ -5,7 +5,8 @@ Vašou úlohou je rozhodnúť, či sú slová na vstupe palindrómy,
 alebo nie.
 
 ##### Vstup
-Na prvom riadku vstupu je číslo **n**, počet slov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich je jedno slovo.
+Na prvom riadku vstupu je číslo **n**, počet slov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich je jedno slovo. Slovo má dĺžku
+max *100* znakov.
 
 ##### Výstup
 Pre každé slovo na vstupe vypíšte na samostatný riadok 'ANO',
