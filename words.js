@@ -1545,6 +1545,5 @@ function hashCode(str){
 }
 
 function getRandomResponse(hash) {
-
-  return wordList[hashCode(hash) % wordList.length]
+  return wordList[Math.abs(hashCode(hash)) % wordList.length]
 }

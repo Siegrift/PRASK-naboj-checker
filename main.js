@@ -40,7 +40,7 @@ function onSubmit(e) {
   if (problem.hash === submitHash) {
     response = correctWord
   } else {
-    while(response === correctWord) response = getRandomResponse()
+    while(response === correctWord) response = getRandomResponse(submitHash)
   }
   alert(problem.name + ": " + response.toUpperCase())
 }
