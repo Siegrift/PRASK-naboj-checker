@@ -1,6 +1,7 @@
 import hashlib, os
 
 obj = '''{
+    label: '%s',
     name: '%s',
     hash: '%s',
     correct: '%s',
@@ -49,9 +50,8 @@ def getOutput(folder):
     f = open('%s/data.out' % (folder), 'r')
     return f.read()
 
-index = 0
-for folder in os.listdir():
-    if not folder.startswith('mh') and not folder.startswith('et'): continue
-    output = getOutput(folder)
-    print(obj % (folder, getHash(folder + output), getHash(corr[index])))
-    index += 1
+with open("order.txt") as order:
+    for index, directory in enumerate(order, 1):
+        with open(directory[:-1] + "/description.md") as source:
+            output = getOutput(directory[:-1])
+            print(obj % (str(index) + '. ' + next(iter(source))[4:-1], directory[:-1], getHash(directory[:-1] + output), getHash(corr[index])))
