@@ -1,5 +1,7 @@
-from random import randint
+from random import randint, seed
 from fractions import gcd
+
+seed(47)
 
 n = 950
 print(n)

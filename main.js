@@ -30,7 +30,7 @@ var problemList = [
   {
       label: '5. 3k+1 (Collatz)',
       name: 'et_collatz',
-      hash: 'ecc3c1a566a6b52b2cd077b50d1e0b071be46732a0ef1b7307c3334d537d5936',
+      hash: '70d6ca2c5af06d1ecee596fd110762df5efefa72cd4a8bbcdb8ca9a96de5f885',
       correct: 'dea7111a8406e27cfc8bf5f49c5d40898402b0b584b3285f069170a36f9eec31',
   },
 
@@ -51,7 +51,7 @@ var problemList = [
   {
       label: '8. Počet deliteľov',
       name: 'et_divisors',
-      hash: '02c040b25cda4f35badc567244e44789a74bbbbe1d5ff030e62243e130dddeab',
+      hash: 'fc32bd911e6e3142457a172595b1fb18f5a943064c26be9930dfde3c2247adea',
       correct: 'd34a569ab7aaa54dacd715ae64953455d86b768846cd0085ef4e9e7471489b7b',
   },
 
@@ -65,7 +65,7 @@ var problemList = [
   {
       label: '10. Cézarova šifra',
       name: 'et_ceasar',
-      hash: 'dae63708d15cfec506ccb1730b8e359d7916bc8d458653c34b91941355bf4e0b',
+      hash: 'fabfad058ac03fe02b2f96010d418fd4e858b8eb5d55c91d44231c800623251c',
       correct: '62484e22a6a5ade1ba25cb1b7c55c4b8861de24caddab73c9409742734008b26',
   },
 
@@ -86,14 +86,14 @@ var problemList = [
   {
       label: '13. Nsd a nsn',
       name: 'et_gcd_nsn',
-      hash: '747faefe510bc966f9958bcb9cf722a472a97f88c72bd6c9b3642f60f0fe18e1',
+      hash: '665f95d3874dfbb470332d11a7e4aee0b78a7384b4ca0b7129c68f48ea3c8f49',
       correct: '59d6d61431fce7d91388d0c60374ddaadc1acd8370221e11b029621656d5ccec',
   },
 
   {
       label: '14. Konvertovanie čísla do inej sústavy',
       name: 'et_convert',
-      hash: '9506a05d1c465a2e2e054d2a9f7d74224d03d7c819d705eb7434e39d0b5989ce',
+      hash: '69ea23287b29333463a27782d0c48659b6b75c2e31a550dc8ad8c73e4ec1f2e8',
       correct: '4cb4ea25583c25647247ae96fc90225d99ad7a6fabc3e2c2fd13c502e323cd9e',
   },
 
@@ -107,7 +107,7 @@ var problemList = [
   {
       label: '16. Počet núl na konci faktoriálu',
       name: 'et_factorial_zero',
-      hash: 'f8ace70a0144376b0d7cc63bd297e31ddf2ea3504bbceb0f049dc29a636a7e35',
+      hash: 'd24fd2685b7f6578b300c58d53f33e1bacb9cf1a883d98a67b67401a302beb1a',
       correct: '80f189984e5ca70287d13342f6daa0db45cba3c131c4e46dc81360f3a4c4f690',
   },
 
@@ -121,14 +121,14 @@ var problemList = [
   {
       label: '18. Maxálny súvislý podsúčet',
       name: 'et_max_subsum',
-      hash: '5156ffee8a061012f0456403c123b111e880b0090139c14a66e9e76b2c885380',
+      hash: 'c0f3900466b0c4e631ee8e94a07bd2a0a299ac60f3bf74d53661f24291672571',
       correct: 'd70afca615203838da3d858e60dda12f900e83e4a6fb03a63cfadb8576ca8985',
   },
 
   {
       label: '19. Sudoku solver',
       name: 'et_sudoku',
-      hash: '51dd085609c3983d40d5434f73d0be909a49be0a46d020dc1bdbf436ba1269e8',
+      hash: 'ba3fd186830c6cf1fcf5fc3f689140d78e6ee8b51105f90b00db907265e5c57d',
       correct: '5b7e6bf2dc4a32a6aa4770cd5639c2c7af890fc86c273b5c8567fe5382086bf3',
   },
 
@@ -138,6 +138,7 @@ var problemList = [
       hash: '2aa53a80b5b22cf60bc9f44c4ec2aafea06ac0e1f4561f1c5d50ff7633b22bf1',
       correct: '3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7',
   },
+
 ]
 
 function getElem(id) {

@@ -1,4 +1,6 @@
-from random import randint
+from random import randint, seed
+seed(47)
+
 n = 950
 print(n)
 for i in range(n):

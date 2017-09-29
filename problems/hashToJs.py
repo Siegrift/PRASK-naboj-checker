@@ -50,8 +50,12 @@ def getOutput(folder):
     f = open('%s/data.out' % (folder), 'r')
     return f.read()
 
-with open("order.txt") as order:
-    for index, directory in enumerate(order, 1):
-        with open(directory[:-1] + "/description.md") as source:
-            output = getOutput(directory[:-1])
-            print(obj % (str(index) + '. ' + next(iter(source))[4:-1], directory[:-1], getHash(directory[:-1] + output), getHash(corr[index])))
+def main():
+    with open("order.txt") as order:
+        for index, directory in enumerate(order, 1):
+            with open(directory[:-1] + "/description.md") as source:
+                output = getOutput(directory[:-1])
+                print(obj % (str(index) + '. ' + next(iter(source))[4:-1], directory[:-1], getHash(directory[:-1] + output), getHash(corr[index])))
+
+if __name__ == "__main__":
+    main()

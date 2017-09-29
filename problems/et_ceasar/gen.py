@@ -1,5 +1,7 @@
-from random import randint, choice
+from random import randint, choice, seed
 import string
+
+seed(47)
 
 n = 950
 print(n)

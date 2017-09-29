@@ -1,7 +1,9 @@
-from random import randint, shuffle
+from random import randint, shuffle, seed
 from copy import deepcopy
 n = 20
 print(n)
+
+seed(47)
 
 def findNextCellToFill(grid, i, j):
     for x in range(i,9):
