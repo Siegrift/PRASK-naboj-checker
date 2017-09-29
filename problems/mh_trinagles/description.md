@@ -1,10 +1,10 @@
 ### Trojuholníky
 Spomínate si na obdĺždniky? Teraz sa ukážte! Spočítajte obsahy trojuholníkov zo súradníc ich vrcholov. Ak by náhodou ležali na priamke, vypíšte `0.0`.
 
-###### Input
+#### Vstup
 Vstup má niekoľko riadkov, každý riadok obsahuje 6 medzerou oddelených celých čísel - súradnice `Ax`, `Ay`, `Bx`, `By`, `Cx` a `Cy`.
 
-###### Output
+#### Výstup
 Pre každý vstupný riadok vypíšte jeden riadok obsahujúci obsah daného trojuholníka s **práve** jedným desatinným miestom.
 
 ##### Sample in

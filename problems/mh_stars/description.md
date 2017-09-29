@@ -1,10 +1,10 @@
 ### Hviezdičková pyramída
 Jedna hviezdička, dve hviezdičky, tri hviezdičky, ... asi už tušíte, čo sa tu deje.
 
-###### Input
+#### Vstup
 Na vstupe je jedno prirodzené číslo `N`.
 
-###### Output
+#### Výstup
 Vypíšte `N` riadkov. Riadok, ktorý je `i`-ty v poradí nech obsahuje `i` hviezdičiek.
 
 ##### Sample in

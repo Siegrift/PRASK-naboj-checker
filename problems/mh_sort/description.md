@@ -1,10 +1,10 @@
 ### Sort
 Utrieďte vstup. Kto to zvládne najrýchlejšie?
 
-###### Input
+#### Vstup
 Vstup má niekoľko riadkov, každý riadok obsahuje jedno celé číslo.
 
-###### Output
+#### Výstup
 Vypíšte vstupné čísla v stúpajúcom poradí, každé na samostatnom riadku.
 
 ##### Sample in

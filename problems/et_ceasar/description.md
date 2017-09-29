@@ -1,11 +1,11 @@
 ### Cézarova šifra
 Cézarova šifra je druh šifry, pri ktorej je každé písmeno správy posunuté o **k** pozícií ďalej v abecede. Vašou úlohou bude zašifrovať cézarovu správu.
 
-###### Input
+#### Vstup
 Na prvom riadku vstupu je číslo **n**, počet riadkov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich je medzerou oddelené slovo **s**,
 (cézarova správa, max *100* znakov malej anglickej abedcedy) a číslo **k** (posun abecedy), (0 <= k < 26).
 
-###### Output
+#### Výstup
 Pre každý riadok vstupu vypíšte zašifrované slovo.
 
 ##### Sample in

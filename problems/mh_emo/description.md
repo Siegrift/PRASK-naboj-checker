@@ -1,10 +1,10 @@
 ### 100 krát opakovaná lož ...
 ... sa stáva pravdou. Sto je však niekedy málo. Vypíšte `Emo je pekny.` toľko krát, koľko je treba. Nezabudnite na znak nového riadku na konci výstupu.
 
-###### Input
+#### Vstup
 Na vstupe je jedno prirodzené číslo `N`.
 
-###### Output
+#### Výstup
 Vypíšte `N` riadkov. Každý s textom `Emo je pekny.`.
 
 ##### Sample in

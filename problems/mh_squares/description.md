@@ -1,9 +1,10 @@
 ### Štvorce
 Dostanete vrcholy `A`, `B`, `C` štvorca `ABCD`. Zrátajte bod `D`, ktorý je protiľahlý k `B`.
-###### Input
+
+#### Vstup
 Vstup má niekoľko riadkov, každý riadok obsahuje 6 medzerou oddelených celých čísel - súradnice `Ax`, `Ay`, `Bx`, `By`, `Cx` a `Cy`.
 
-###### Output
+#### Výstup
 Pre každý vstupný riadok vypíšte jeden riadok s dvoma medzerou oddelenými číslami - súradnicami `Dx` a `Dy`
 
 ##### Sample in

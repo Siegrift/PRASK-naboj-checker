@@ -1,11 +1,11 @@
 ### Púštne ostrovy
 Uprostred veľkej púšte sa nachádza `N` miest pomenovaných podľa čísel od `1` po `N`. Medzi niektorými mestami vedú cesty. Skupinka miest, ktoré sú navzájom pospájané cestami, sa nazýva ostrov. Koľko rôznych ostrovov je na púšti?
 
-###### Input
+#### Vstup
 Prvý riadok vstupu obsahuje jedno celé číslo `N` - počet miest.
 Každý zo zvyšných riadkov obsahuje dve medzerou oddelené celé čísla - dvojice miest, ktoré sú spojené cestami
 
-###### Output
+#### Výstup
 Vypíšte jediné číslo - počet púštnych ostrovov.
 
 ##### Sample in

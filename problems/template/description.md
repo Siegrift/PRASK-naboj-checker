@@ -1,10 +1,10 @@
 ### Title
 Description
 
-###### Input
+#### Vstup
 Input details
 
-###### Output
+#### Výstup
 Output details
 
 ##### Sample in

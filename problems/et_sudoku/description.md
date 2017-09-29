@@ -2,12 +2,12 @@
 Sudoku dúfam, všetci poznáte (ak nie spýtajte sa vedúceho). Vašou úlohou
 je vyriešiť neikoľko sudoku. Môžete predpokladať, že každé sudoku je riešiteľné.
 
-###### Input
+##### Vstup
 Na prvom riadku vstupu je číslo **n**, počet sudoku na vstupe *(n <= 20)*. Nasleduje **n** sudoku. Každé sudoku zaberá na vstupe 9 riadkov, a riadky sú
 9 znakov dlhé. Čísla 1-9 reprezentujú hodnoty v políčkach, číslo **0** znamená,
 že políčko je prázdne.
 
-###### Output
+##### Výstup
 Pre každé sudoku, výpíšte 9 riadkov, s korektne vyriešeným sudoku. (Sudoku neoddeľujte ničím, prázdnym riadkom)
 
 ##### Sample in
@@ -24,7 +24,7 @@ Pre každé sudoku, výpíšte 9 riadkov, s korektne vyriešeným sudoku. (Sudok
 539102680
 ```
 
-##### Sample out
+**Sample out**
 ```
 875416392
 923587461
