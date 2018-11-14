@@ -158,13 +158,19 @@ for (var i = 0; i < problemList.length; i++) {
   selectElem.add(opt, null);
 }
 
+// TODO: fill with correct names before the game
+// TODO: remove after KSP camp is over
+var people = ["Veduci A", "Veduci B", "Veduci C"];
+function choose(index) {
+  return people[Math.floor(Math.random() * people.length)];
+}
+
 var submitElem = getElem("submit");
 var textAreaElem = getElem("input-area");
 function onSubmit(e) {
   e.preventDefault();
   var submitHash = sha256(
-    getElem("problem-select").value +
-      textAreaElem.value.replace(/\r\n|\r|\n/g, "\n")
+    selectElem.value + textAreaElem.value.replace(/\r\n|\r|\n/g, "\n")
   );
   var response = getRandomResponse(submitHash);
   var problem = problemList[selectElem.selectedIndex];
@@ -174,6 +180,13 @@ function onSubmit(e) {
   } else {
     while (response === correctWord) response = getRandomResponse(submitHash);
   }
-  alert(problem.name + ": " + response.toUpperCase());
+  alert(
+    problem.name +
+      ": " +
+      response.toUpperCase() +
+      " (" +
+      people[selectElem.selectedIndex % people.length] +
+      ")"
+  );
 }
 submitElem.onclick = onSubmit;
