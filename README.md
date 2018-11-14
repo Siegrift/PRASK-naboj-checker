@@ -24,11 +24,11 @@ Popis ostatnych suborov:
 - **order.txt** - mena adresarov uloh, v poradi v akom maju byt v odovzdavatku...
   Sem treba napisat vsetky ulohy ktore sa maju vygenerovat.
 - **generate-pdf.py** - vygeneruje pdf so zadaniami uloh v `order.txt` (potrebujete `pandoc`)
-- **generate.py** - vygeneruje vstupy a vystuy pre kazdu ulohu, a vypluje
+- **generate.py** - vygeneruje vstupy a vystupy pre kazdu ulohu, a vypluje
   zahashovane spravne vysledky uloh (**tento vystup treba nakopirovat do premennej `problemList` v `main.js`**)
 - **test_all.py** - otestuje vsetky ulohy
 - **hashToJs.py** - zahashuje ulohy do formatu aky ocakava `main.js`. Jednotlivym uloham v `order.txt`
-  zodpovedaju jednotlive slova v premennej `corr`.
+  zodpovedaju jednotlive slova v premennej `corr`. _(Tento subor je automaticky volany v `generate.py`)_
 
 ## Ak nieco nefunguje
 
