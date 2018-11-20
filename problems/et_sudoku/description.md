@@ -1,18 +1,14 @@
 ### Sudoku solver
-Sudoku dúfam, všetci poznáte (ak nie spýtajte sa vedúceho). Vašou úlohou
-je vyriešiť neikoľko sudoku. Môžete predpokladať, že každé sudoku je riešiteľné.
+Sudoku, dúfam, všetci poznáte (ak nie spýtajte sa vedúceho). Vašou úlohou je vyriešiť zadané sudoku. Môžete predpokladať, že toto sudoku je riešiteľné.
 
 ##### Vstup
-Na prvom riadku vstupu je číslo **n**, počet sudoku na vstupe *(n <= 20)*. Nasleduje **n** sudoku. Každé sudoku zaberá na vstupe 9 riadkov, a riadky sú
-9 znakov dlhé. Čísla 1-9 reprezentujú hodnoty v políčkach, číslo **0** znamená,
-že políčko je prázdne.
+Na vstupe je 9 riadkov reprezentujúcich riadky sudoku. Na každom je postupnosť 9 znakov, znaky `1`-`9` reprezentujú číselné hodnoty na políčkach a znak `0` reprezentuje prázdne políčko, ktoré je potrebné doplniť.
 
 ##### Výstup
-Pre každé sudoku, výpíšte 9 riadkov, s korektne vyriešeným sudoku. (Sudoku neoddeľujte ničím, prázdnym riadkom)
+Na výstup vypíšte korektne doplnené sudoku v rovnakom formáte ako bolo na vstupe.
 
 ##### Sample in
 ```
-1
 075416392
 920087460
 416309875

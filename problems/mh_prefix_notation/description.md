@@ -1,5 +1,5 @@
 ### Počítame
-Poľská prefixová notácia je zápis aritemtických výrazov, ktorý nepotrebuje zátvorky. Vyznačuje sa tým, že najskôr píśeme operáciu až potom argumenty. Pri vyhodnocovaní takéhoto výrazu vždy nájdeme poslednú operáciu, aplikujeme ju na nasledujúce dve hodnoty a všetky tri slová nahradíme výsledkom. Toto opakujeme, až kým nevyhodnotíme celý výraz.
+Poľská prefixová notácia je zápis aritemtických výrazov, ktorý nepotrebuje zátvorky. Vyznačuje sa tým, že najskôr píšeme operáciu až potom argumenty. Pri vyhodnocovaní takéhoto výrazu vždy nájdeme poslednú operáciu, aplikujeme ju na nasledujúce dve hodnoty a všetky tri slová nahradíme výsledkom. Toto opakujeme, až kým nevyhodnotíme celý výraz.
 
 Ľahšie to možno demonštrovať na príkladoch:
 
@@ -15,21 +15,27 @@ Poľská prefixová notácia je zápis aritemtických výrazov, ktorý nepotrebu
 Pre jednoduchosť sa obmedzíme iba na násobenie (`*`) a sčítanie (`+`).
 
 #### Vstup
-Vstup má niekoľko riadkov, každý riadok obsahuje jeden výraz v poľskej prefixovej notácii.
+Vstup obsahuje jeden riadok na ktorom je výraz v poľskej prefixovej notácii. Jednotlivé prvky tohto zápisu sú oddelené medzerou.
 
 #### Výstup
-Pre každý vstupný riadok vypíšte jeden riadok obsahujúci hodnotu vstupného výrazu.
+Vypíšte výslednú hodnotu zadaného výrazu.
 
 ##### Sample in
 ```
 + 1 + 2 + 3 4
-+ 1 * 2 + 3 4
-* + 1 2 + 3 4
 ```
 
 ##### Sample out
 ```
 10
-15
+```
+
+##### Sample in
+```
+* + 1 2 + 3 4
+```
+
+##### Sample out
+```
 21
 ```

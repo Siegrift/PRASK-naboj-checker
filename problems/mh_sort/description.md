@@ -1,24 +1,19 @@
 ### Sort
-Utrieďte vstup. Kto to zvládne najrýchlejšie?
+Utrieďte vstup. Nemôžete však použiť knižničnú funkciu, ktorá to spraví za vás.
 
 #### Vstup
-Vstup má niekoľko riadkov, každý riadok obsahuje jedno celé číslo.
+Na prvom riadku vstupu je číslo $n$ ($1 \leq n \leq 100\,000$). Druhý riadok vstupu obsahuje $n$ medzerou oddelených čísel z rozsahu $0$ až $10^9$.
 
 #### Výstup
-Vypíšte vstupné čísla v stúpajúcom poradí, každé na samostatnom riadku.
+Vypíšte zadanú postupnosť v stúpajúcom poradí.
 
 ##### Sample in
 ```
 4
-79
--10
-4
+7 1 4 6
 ```
 
 ##### Sample out
 ```
--10
-4
-4
-79
+1 4 6 7
 ```

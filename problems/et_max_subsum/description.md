@@ -1,19 +1,19 @@
 ### Maxálny súvislý podsúčet
-Na vstupe dostanete postupnosť čísel (aj záporných). Nájdite súvislú podpostupnosť s maximálnym súčtom. Zaujíma nás iba jej súčet.
+Na vstupe dostanete postupnosť celých čísel. Nájdite súvislú podpostupnosť s maximálnym súčtom a tento súčet vypíšte.
 
 #### Vstup
-Na prvom riadku vstupu je číslo **n**, počet čísel na vstupe *(n < 1000)*. Na ďalšom riadku budú medzerou oddelené čísla postupnosti. *(Čísla v postupnosti sú v rozsahu od -10 000 do 10 000)*
+Na prvom riadku vstupu je číslo $n$ ($1 \leq n \leq 10^6$), počet čísel na vstupe. Na ďalšom riadku je $n$ medzerou oddelených čísel postupnosti. Všetky tieto čísla sú v rozsahu od $-10\,000$ do $10\,000$.
 
 #### Výstup
-Vypíšte 1 číslo, súčet čísel v maximálnej podpostupnosti.
+Vypíšte maximálny súčet súvislej podpostupnosti v zadanej postupnosti.
 
 ##### Sample in
 ```
 5
-7 -5 1 -3 1
+7 -5 6 -3 1
 ```
 
 ##### Sample out
 ```
-3
+8
 ```

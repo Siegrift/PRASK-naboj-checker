@@ -1,19 +1,18 @@
 ### Frekvencia písmen v texte
-Na vstupe dostanete nejaký kus textu (malé písmená anglickej abecedy, medzery, konce riadkov). Zistite, koľkokrát sa ktoré písmenko vyskytuje v texte.
+Na vstupe dostanete kus textu obsahujúci malé písmená anglickej abecedy a medzery. Zistite, koľkokrát sa v tomto texte vyskytujú jednotlivé písmená.
 
 #### Vstup
-Na prvom riadku vstupu je číslo **n**, počet riadkov text na vstupe *(n < 10)*. V ďalších **n** riadkoch budú slová oddelené medzerou. *(Dĺžka riadka je max 2000 znakov, Dĺžka slov v texte je max 100 znakov)*
+Na jedinom riadku dlhom najviac $2\,000$ znakov je reťazec $s$ skladajúci sa z malých písmen anglickej abecedy a medzier.
 
 #### Výstup
-Vypíšte 26 čísel, symbolizujúce počet výskytov písmen malej anglickej abecedy.
+Vypíšte 26 čísel vyjadrujúce počet výskytov jednotlivých písmen anglickej abecedy v zadanom texte.
 
 ##### Sample in
 ```
-5
-7 -5 1 -3 1
+abeceda
 ```
 
 ##### Sample out
 ```
-3
+2 1 1 1 2 0 0 0 0 0 ... (ešte 16 ďalších núl)
 ```

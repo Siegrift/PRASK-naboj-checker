@@ -1,11 +1,11 @@
 ### Koľajnice
-Jožko má sadu koľajníc s dĺžkami medzi `1 cm` a `200 cm`. Ak použije všetky dlhšie ako meter, akú dlhú trať dostane?
+Jožko má sadu koľajníc, ktorých dĺžky sú medzi $1$ až $200$ centimetrov. Akú dlhú trať dostane ak použije všetky koľajnice dlhšie ako meter?
 
 #### Vstup
-Vstup má niekoľko riadkov, každý riadok obsahuje jedno prirodzené číslo - dĺžku koľajnice.
+Vstup má niekoľko riadkov, každý riadok obsahuje jedno prirodzené číslo -- dĺžku koľajnice.
 
 #### Výstup
-Vypíšte jedno číslo - súčet dĺžok tých koľajníc, ktoré majú ostro viac ako `100 cm`.
+Vypíšte jedno číslo -- súčet dĺžok tých koľajníc, ktoré majú ostro viac ako $100$ centimetrov.
 
 ##### Sample in
 ```

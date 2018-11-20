@@ -1,23 +1,18 @@
 ### Počet deliteľov
-Vypíšte počet deliteľov čisla.
+Vypíšte počet deliteľov zadaného čísla.
 
 #### Vstup
-Na prvom riadku vstupu je číslo **n**, počet riadkov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich je číslo **k**, (0 < k <= 100 000).
+Na vstupe je jediné číslo $k$ ($0 < k \leq 100\,000$).
 
 #### Výstup
-Pre každý riadok vstupu vypíšte jedno číslo, počet deliteľov čísla **k**.
+Vypíšte počet všetkých prirodzených deliteľov čísla $k$.
 
 ##### Sample in
 ```
-3
-8
 124
-720
 ```
 
 ##### Sample out
 ```
-4
 6
-30
 ```

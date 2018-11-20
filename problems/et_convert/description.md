@@ -1,26 +1,30 @@
 ### Konvertovanie čísla do inej sústavy
-Na vstupe dostanete číslo v nejakej sústave, jeho sústavu, a sústavu do ktorej ho
-máte skonvertovať.
+Na vstupe dostanete číslo v zadanej číselnej sústave a sústavu, do ktorého ho máte skonvertovať.
 
 #### Vstup
-Na prvom riadku vstupu je číslo **n**, počet riadkov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich sú 3 čísla **k**, **b1**, **b2**. Číslo **k** je v sústave **b1**.
-Sústavy sú od **2** do **16**. Pre vyjadrenie cifier vačších ako 9, sú použité písmená veľkej
-anglickej abecedy. (Môžete predpokladať, že číslo **k** je v desiatkovej sústave do 100 000).
+Na jedinom riadku vstupu sa nachádzajú 3 čísla $k$, $b_1$ a $b_2$. Číslo $k$ je zapísané v číselnej sústave $b_1$ a v desiatkovej sústave číslo $k$ neprevyšuje $100\,000$.
+Pre hodnoty $b_1$ a $b_2$ platí, že sú aspoň 2 a najviac 16. Na zápis cifier väčších ako 9 používame potrebný počet prvých písmen veľkej anglickej abecedy.
 
 #### Výstup
-Pre každý riadok vstupu vypíšte jedno číslo **k**, v sústave **b2**.
+Na výstup vypíšte číslo $k$ v sústave $b_2$.
 
 ##### Sample in
 ```
-3
-10001 2 10
 7A 16 10
-52 6 12
 ```
 
 ##### Sample out
 ```
-17
 122
+```
+
+##### Sample in
+```
+52 6 12
+```
+
+##### Sample out
+
+```
 28
 ```

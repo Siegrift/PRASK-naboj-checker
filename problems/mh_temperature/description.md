@@ -1,6 +1,6 @@
 ### Počasie
 
-Syseľ si chce prispôsobiť hlásič teploty. Pomôžete mu? Ak chcete body, musíte ...
+Syseľ si chce prispôsobiť hlásič teploty. Pomôžete mu? Ak chcete oddaných nasledovateľov, nemáte veľmi na výber ...
 
 Sysľove preferencie sú nasledovné:
 
@@ -11,7 +11,7 @@ Sysľove preferencie sú nasledovné:
   - Čokoľvek pod 10 stupňov je `zima`.
 
 #### Vstup
-Vstup má niekoľko riadkov, každý riadok obsahuje jedno celé číslo - teplotu v stupňoch (celzia).
+Vstup má 100 riadkov, každý riadok obsahuje jedno celé číslo -- teplotu v stupňoch (celzia).
 
 #### Výstup
 Pre každý vstupný riadok vypíšte jeden riadok obsahujúci zodpovedajúce počasie podľa Sysľových preferencií.
@@ -23,6 +23,7 @@ Pre každý vstupný riadok vypíšte jeden riadok obsahujúci zodpovedajúce po
 -8
 19
 20
+... ďalších 95 riadkov
 ```
 
 ##### Sample out
@@ -32,4 +33,5 @@ peklo
 zima
 chladno
 fajne
+... ďalších 95 riadkov
 ```

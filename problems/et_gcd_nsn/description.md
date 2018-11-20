@@ -1,22 +1,18 @@
 ### Nsd a nsn
-Najväčší spoločný deliteľ (nsd) dvoch celých čísel je **najväčšie** číslo také, že bezo zvyšku delí obe čísla.
-Najmenší spoločný násobok (nsn) dvoch prirodzených čísel, je **najmenšie** prirodzené číslo, ktoré je deliteľné oboma číslami bezo zvyšku.
+Určite viete, čo je to najväčší spoločný deliteľ (nsd) a najmenší spoločný násobok (nsn). Viete ich však aj vypočítať?
 
 #### Vstup
-Na prvom riadku vstupu je číslo **n**, počet riadkov na vstupe *(n < 1000)*. Nasleduje **n** riadkov, na každom z nich sú čísla **a** a **b**. Platí 0 < a,b <= 1000.
+Na vstupe dostanete dve medzerou oddelené čísla $a$ a $b$ ($0 < a,b \leq 1\,000$).
 
 #### Výstup
-Pre každý riadok vstupu vypíšte medzerou oddelené 2 čísla, nsd a nsn čísel **a** a **b**.
+Na výstup vypíšte medzerou oddelené dve čísla -- nsd a nsn čísel $a$ a $b$.
 
 ##### Sample in
 ```
-2
 6 15
-7 5
 ```
 
 ##### Sample out
 ```
 3 30
-1 35
 ```
