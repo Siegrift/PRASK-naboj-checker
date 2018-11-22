@@ -23,10 +23,14 @@ mh_islands
 acm_vazenie
 ma_stvorec
 zenit_copy
+acm_magic
 et_max_subsum
 zenit_vykriky
 acm_smooth
+acm_buymilk1
 et_sudoku
+acm_twilight
 mh_prefix_notation
 acm_subsetgcd
 ma_obdlznik
+acm_buymilk2
