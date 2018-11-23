@@ -9,10 +9,10 @@ Na výstup vypíšte počet prirodzených čísel menších alebo rovných $n$, 
 
 ##### Sample in
 ```
-Sample in
+10 4
 ```
 
 ##### Sample out
 ```
-Sample out
+7
 ```

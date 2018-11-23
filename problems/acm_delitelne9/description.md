@@ -1,5 +1,5 @@
 ### Čísla deliteľné 9
-Na vstupe je veľaciferné nezáporné celé číslo, ktorého niektoré cifry (aspoň jedna) sú nahradené otáznikom.
+Na vstupe je viacciferné nezáporné celé číslo, ktorého niektoré cifry (aspoň jedna) sú nahradené otáznikom.
 
 Doplňte namiesto otáznikov cifry tak, aby vzniklo číslo deliteľné 9. Ak existuje viacero možností, nájdite najmenšiu z nich.
 
