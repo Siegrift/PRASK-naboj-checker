@@ -1,4 +1,4 @@
-### Maxálny súvislý podsúčet
+### Maximálny súvislý podsúčet
 Na vstupe dostanete postupnosť celých čísel. Nájdite súvislú podpostupnosť s maximálnym súčtom a tento súčet vypíšte.
 
 #### Vstup

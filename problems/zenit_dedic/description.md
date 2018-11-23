@@ -1,5 +1,5 @@
 ### Dedič Dano
-Dano je zainvestovaný do svojej finančnej budúcnosti. Jeho zainvestovanosť zašla až tak ďaleko, že sa rozhodol zistiť čo všetko zdedí. Čoskoro ale pochopil, že dedenie nie je len sranda a okrem toho, že dedičské konanie nie je lacný špás, mohol by zdediť aj dlhy.
+Dano nedávno pochopil, že dedenie nie je len sranda a okrem toho, že dedičské konanie nie je lacný špás, mohol by zdediť aj dlhy.
 
 Preto zisťuje, aké dlžoby by zdedil od ktorého rodinného člena, aby sa poprípade vhodne vydedil. To ale nie je len tak.
 

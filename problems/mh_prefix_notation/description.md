@@ -11,7 +11,6 @@ Poľská prefixová notácia je zápis aritemtických výrazov, ktorý nepotrebu
   - `+ * + 1 1 3 9` vyhodnotíme ako `((1 + 1) * 3) + 9`
   - `+ 9 * 3 + 1 1` vyhodnotíme ako `9 + (3 * (1 + 1))`
 
-
 Pre jednoduchosť sa obmedzíme iba na násobenie (`*`) a sčítanie (`+`).
 
 #### Vstup
@@ -19,16 +18,6 @@ Vstup obsahuje jeden riadok na ktorom je výraz v poľskej prefixovej notácii. 
 
 #### Výstup
 Vypíšte výslednú hodnotu zadaného výrazu.
-
-##### Sample in
-```
-+ 1 + 2 + 3 4
-```
-
-##### Sample out
-```
-10
-```
 
 ##### Sample in
 ```
