@@ -7,7 +7,10 @@ mh_sort
 et_palindrom
 prask_tancovanie
 et_divisors
+ksp_platenie
+ksp_predavanie
 et_letter_freq
+ksp_sprchovanie
 zenit_dedic
 et_ceasar
 acm_minus
@@ -22,6 +25,7 @@ prask_trojuholnik
 acm_jablone
 mh_trinagles
 prask_naplast
+ma_pizza
 acm_les
 et_factorial_zero
 acm_delitelne9
@@ -41,4 +45,6 @@ acm_twilight
 mh_prefix_notation
 acm_subsetgcd
 ma_obdlznik
+ma_kmp
+acm_evenroads
 acm_buymilk2
